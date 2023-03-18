@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <section>
+  <!--Navigation------------------->
+    <nav>
+    <!--Logo-->
+    <a href="#" class="logo">My Portfolio</a>
+    <!--Menu-->
+    <ul id="sidemenu">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services </a></li>
+      <li><a href="#">Contact</a></li>
+      <i class="fa-sharp fa-solid fa-x" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+     <!--Text------------------>
+    <div class="text-container">
+      <p>Hello,</p>
+      <p>I'M KAYE</p>
+      <p>A Software Engineer & Designer</p>
+      <button class="hire-btn">Hire me</button>
+    </div>
+    <!--Me------------------>
+    <img src="img/k1.png" class="model" alt="model">
+  </section>
+
+  <!--About Section------------------>
+  <div class="about-container">
+      <!--About-Image------------------>
+  <img src="/img/k2.png" alt="">
+  <!--About-Text------------------>
+  <div class="about-text">
+    <p>About Me</p>
+    <p>Developer & Designer</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+       Reiciendis tempore ea vitae recusandae consectetur maxime, accusamus
+       laboriosam ad voluptatem odio excepturi inventore quam, non rerum, facere consequuntur ut! Explicabo.</p>
+       <!--Button------------------>
+       <button>Download CV</button>
+  </div>
+  </div>
+
+  <!--Services------------------>
+
+  <div class="services">
+  <!--text------------------>
+    <div class="services-text">
+      <p>Services</p>
+      <p>Services Required</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Vitae aspernatur officiis eligendi voluptates reprehenderit 
+         consectetur, eum harum eveniet mollitia dolor sitnesciunt consequatur 
+         in magnam pariatur! Sint, fugiat exercitationem.</p>
+    </div>
+    <!--box---------------------------------->
+    <div class="box-container">
+    <!--1------------------------------>
+      <div class="box-1">
+        <span>1</span>
+        <p class="heding">Web Design</p>
+        <p class="details">Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. us doloribus necessitatibus alias aspernatur non</p>
+        <button>Read More</button>
+      </div>
+    <!--2------------------------------>
+      <div class="box-2">
+        <span>2</span>
+        <p class="heding">Web Development</p>
+        <p class="details">Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. us doloribus necessitatibus alias aspernatur non</p>
+        <button>Read More</button>
+      </div>  
+    <!--3------------------------------>
+      <div class="box-3">
+        <span>3</span>
+        <p class="heding">Security/SEO</p>
+        <p class="details">Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. us doloribus necessitatibus alias aspernatur non</p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+
+
+<!--Contact me------------------------------>
+  <div class="contact-me">
+    <p>If you have any project in your mind.</p>
+    <button>Contact Me</button>
+  </div>
+
+<!--footer------------------------------>
+  <footer>
+    <p>Hello wOrld</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+      Animi quis architecto nobis odio, minus voluptate praesen</p>
+<!--social------------------------------>
+      <div class="social-icons">
+
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+      </div>
+<!--copyright------------------------------>
+      <p class="copyright">Copyright by mewmew</p>
+  </footer>
+  <!--attached social bar------------------------------>
+  <div class="a-social-b">
+
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+  </div>
+
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+</html>
